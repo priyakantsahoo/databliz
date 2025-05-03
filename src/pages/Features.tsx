@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -17,7 +18,20 @@ import {
   Bell,
   BarChart2,
   Palette,
-  Database
+  Database,
+  Brain,
+  Workflow,
+  Users,
+  MessageSquare,
+  Lightbulb,
+  Sparkles,
+  Smartphone,
+  Wifi,
+  Globe,
+  Server,
+  Cloud,
+  Building,
+  Shield
 } from "lucide-react";
 import { ShieldIcon, MonitorIcon, CodeIcon } from "@/components/icons/CustomIcons";
 
@@ -70,6 +84,33 @@ const featureSections = [
     ]
   },
   {
+    id: "ai-workflows",
+    title: "AI & Automated Business Workflows",
+    description: "Let our intelligent systems handle routine tasks while you focus on what matters most.",
+    features: [
+      {
+        icon: Brain,
+        title: "AI Document Analysis",
+        description: "Our neural networks automatically analyze document content, extract key information, and classify documents based on content patterns."
+      },
+      {
+        icon: Workflow,
+        title: "Predictive Workflow Management",
+        description: "AI-powered system that learns your workflow patterns and suggests optimized processes for maximum efficiency."
+      },
+      {
+        icon: Sparkles,
+        title: "Automated Processing Pipelines",
+        description: "Create custom document processing workflows with conditional logic, approvals, notifications, and integrations with other business systems."
+      },
+      {
+        icon: Lightbulb,
+        title: "Intelligent Document Routing",
+        description: "Smart routing capabilities that automatically direct documents to the right people based on content, metadata, and organizational structure."
+      }
+    ]
+  },
+  {
     id: "collaborate",
     title: "Collaborate & Share",
     description: "Work together seamlessly with controlled access to your documents.",
@@ -83,6 +124,16 @@ const featureSections = [
         icon: FilePlus,
         title: "File Requests",
         description: "Request files from internal or external users with integrated tracking and organization of received content."
+      },
+      {
+        icon: MessageSquare,
+        title: "Real-time AI Co-authoring Assistant",
+        description: "Collaborate with an AI assistant that helps with drafting, editing, and improving document quality in real-time as you work."
+      },
+      {
+        icon: Users,
+        title: "Smart Content Recommendations",
+        description: "AI-powered system that recommends relevant documents and content to team members based on their roles, projects, and past interactions."
       }
     ]
   },
@@ -100,6 +151,11 @@ const featureSections = [
         icon: ShieldIcon,
         title: "Privacy & Security Features",
         description: "Control public vs. private content, employ encryption capabilities, and track access with comprehensive logs and auditing."
+      },
+      {
+        icon: Shield,
+        title: "End-to-End Encryption",
+        description: "Military-grade encryption ensures your data is for your eyes only, with complete encryption at rest and in transit. Your private keys mean even we can't access your sensitive information."
       }
     ]
   },
@@ -139,6 +195,16 @@ const featureSections = [
         icon: Palette,
         title: "Theme Support",
         description: "Switch between light and dark mode with customizable interface elements to match your preferences."
+      },
+      {
+        icon: Smartphone,
+        title: "Mobile Application",
+        description: "Access your documents anywhere with our full-featured mobile app, allowing you to view, edit, and share documents from your smartphone or tablet."
+      },
+      {
+        icon: Wifi,
+        title: "Business Workflows on the Go",
+        description: "Approve documents, participate in workflows, scan paper documents, and manage tasks from anywhere with full offline capabilities that sync when you reconnect."
       }
     ]
   },
@@ -156,6 +222,33 @@ const featureSections = [
         icon: Database,
         title: "Powerful Backend",
         description: "Supabase integration with real-time database capabilities and efficient file storage and retrieval."
+      },
+      {
+        icon: Cloud,
+        title: "Flexible Deployment Options",
+        description: "Choose from cloud hosting, dedicated VPS, or on-premise deployment options depending on your organization's needs and regulatory requirements."
+      },
+      {
+        icon: Server,
+        title: "Enterprise Scalability",
+        description: "Architecture designed to scale from small teams to enterprise organizations with thousands of users and millions of documents without performance degradation."
+      }
+    ]
+  },
+  {
+    id: "deployment",
+    title: "Deployment & Integration",
+    description: "Adapt Cerebrum to your organization's specific infrastructure and security needs.",
+    features: [
+      {
+        icon: Globe,
+        title: "Cloud Hosting",
+        description: "Fully-managed cloud deployment with automatic updates, backups, and scaling to handle any workload without infrastructure management overhead."
+      },
+      {
+        icon: Building,
+        title: "On-Premise Solutions",
+        description: "Deploy behind your firewall for complete control over data sovereignty and compliance with the most stringent regulatory requirements."
       }
     ]
   }

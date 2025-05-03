@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md py-4 border-b border-border">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-600 to-cerebrum-800 rounded-full flex items-center justify-center">
+          <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-600 to-cerebrum-800 rounded-full flex items-center justify-center animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite]">
             <Brain className="h-6 w-6 text-white" />
           </div>
           <span className="text-2xl font-display font-bold text-foreground">Cerebrum</span>
