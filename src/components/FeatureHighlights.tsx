@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { Tag, LayoutDashboard, Bell } from "lucide-react";
+import { Tag, LayoutDashboard, Bell, Users } from "lucide-react";
 
 const features = [
   {
