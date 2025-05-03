@@ -3,24 +3,24 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    quote: "Cerebrum has revolutionized how our team shares documents. The AI-powered search feature has reduced our document retrieval time by 78%.",
-    author: "Jane Doe",
-    position: "Head of Marketing",
-    company: "TechCorp Inc.",
+    quote: "Cerebrum's AI has transformed our document workflows. The predictive analysis feature alone has identified trends that led to a 28% increase in operational efficiency across departments.",
+    author: "Sarah Johnson",
+    position: "Chief Innovation Officer",
+    company: "NexTech Global",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
   },
   {
-    quote: "Finding documents is faster than ever with Cerebrum's powerful search. We've eliminated at least 5 hours of weekly overhead searching for project files.",
-    author: "John Smith",
-    position: "IT Manager",
-    company: "Global Solutions Ltd.",
+    quote: "Document retrieval that used to take minutes now happens in milliseconds. The AI anticipates what we need before we search for it, saving our team an estimated 22 hours per week in previously wasted time.",
+    author: "Michael Chen",
+    position: "Director of Digital Transformation",
+    company: "Quantum Enterprises",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
   },
   {
-    quote: "The AI features have transformed our knowledge management strategy. Cerebrum identified patterns in our documentation that led to a 32% increase in team productivity.",
-    author: "Emily Johnson",
-    position: "Operations Director",
-    company: "Innovative Systems",
+    quote: "The intelligent automation features have eliminated 94% of our manual document processing tasks. Our team now focuses on strategic initiatives instead of paperwork, increasing our enterprise value delivery by 37%.",
+    author: "Dr. Emily Roberts",
+    position: "VP of Operations",
+    company: "Futurewave Technologies",
     avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80"
   }
 ];
@@ -28,29 +28,29 @@ const testimonials = [
 // Company logos for the "Trusted By" section
 const companyLogos = [
   {
-    name: "Acme Corporation",
-    logo: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    altText: "Acme Corporation logo"
+    name: "TechVision Inc.",
+    logo: "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
+    altText: "TechVision Inc. logo"
   },
   {
-    name: "TechNova",
+    name: "Nova Dynamics",
     logo: "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    altText: "TechNova logo"
+    altText: "Nova Dynamics logo"
   },
   {
-    name: "Quantum Enterprises",
+    name: "Global Innovations Group",
     logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    altText: "Quantum Enterprises logo"
+    altText: "Global Innovations Group logo"
   },
   {
-    name: "GlobalTech",
+    name: "Quantum Systems",
     logo: "https://images.unsplash.com/photo-1561070791-36c11767b26a?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    altText: "GlobalTech logo"
+    altText: "Quantum Systems logo"
   },
   {
-    name: "Innovate Solutions",
+    name: "Apex Technologies",
     logo: "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80",
-    altText: "Innovate Solutions logo"
+    altText: "Apex Technologies logo"
   }
 ];
 
@@ -59,9 +59,9 @@ const Testimonials = () => {
     <section className="py-16 px-4 bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Trusted by Businesses Like Yours</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Powering Innovation at Forward-Thinking Enterprises</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            See what our customers are saying about their experience with Cerebrum.
+            See how AI-driven document intelligence is transforming workflows at industry-leading organizations.
           </p>
         </div>
 
