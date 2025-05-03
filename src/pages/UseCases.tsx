@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -19,8 +18,8 @@ const useCases = [
       "Receive real-time notifications when assets are updated"
     ],
     color: "bg-blue-50 border-blue-200",
-    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "A marketing team collaborating around digital screens and displays"
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "Sales team discussing presentations with colleagues in a meeting room"
   },
   {
     title: "HR Departments",
@@ -34,8 +33,8 @@ const useCases = [
       "Create custom views for different employee categories"
     ],
     color: "bg-amber-50 border-amber-200",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "HR professional working with employee documents on a laptop"
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "Formal businesswoman reviewing employee files in a modern office"
   },
   {
     title: "Project Teams",
