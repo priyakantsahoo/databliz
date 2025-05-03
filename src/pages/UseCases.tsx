@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -33,8 +34,8 @@ const useCases = [
       "Create custom views for different employee categories"
     ],
     color: "bg-amber-50 border-amber-200",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "Formal businesswoman reviewing employee files in a modern office"
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "Smart modern HR professional in formal attire having a discussion with colleagues in an office setting"
   },
   {
     title: "Project Teams",
