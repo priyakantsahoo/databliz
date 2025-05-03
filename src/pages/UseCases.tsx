@@ -2,7 +2,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Briefcase, User, Project, Building } from "lucide-react";
+import { Briefcase, User, Building } from "lucide-react";
+import { ProjectIcon } from "@/components/icons/ProjectIcon";
 
 const useCases = [
   {
@@ -33,7 +34,7 @@ const useCases = [
   },
   {
     title: "Project Teams",
-    icon: Project,
+    icon: ProjectIcon,
     challenge: "Collaborating on project documents, tracking tasks, and maintaining document version history.",
     solution: "Real-time collaboration, task management integrated with files, shared folders, and comprehensive version control.",
     benefits: [
@@ -153,24 +154,3 @@ const UseCases = () => {
 };
 
 export default UseCases;
-
-// Custom icon component for Project
-const Project = ({ size = 24, ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-    <path d="M16 2l-4 5l-4-5" />
-    <path d="M12 10v4" />
-    <path d="M12 18h.01" />
-  </svg>
-);

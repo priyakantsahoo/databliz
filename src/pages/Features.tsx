@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -20,6 +19,7 @@ import {
   Palette,
   Database
 } from "lucide-react";
+import { ShieldIcon, MonitorIcon, CodeIcon } from "@/components/icons/CustomIcons";
 
 const featureSections = [
   {
@@ -97,7 +97,7 @@ const featureSections = [
         description: "Secure login/signup, detailed user profiles, role-based access control with department and organization settings."
       },
       {
-        icon: Shield,
+        icon: ShieldIcon,
         title: "Privacy & Security Features",
         description: "Control public vs. private content, employ encryption capabilities, and track access with comprehensive logs and auditing."
       }
@@ -131,7 +131,7 @@ const featureSections = [
     description: "Enjoy a beautiful and intuitive interface designed for productivity.",
     features: [
       {
-        icon: Monitor,
+        icon: MonitorIcon,
         title: "User Interface",
         description: "Clean and modern UI with responsive layout, consistent visual language, visual indicators, and smooth loading states."
       },
@@ -148,7 +148,7 @@ const featureSections = [
     description: "Built with modern technology for performance and scalability.",
     features: [
       {
-        icon: Code,
+        icon: CodeIcon,
         title: "Modern Architecture",
         description: "Built with React and TypeScript for a robust frontend experience with comprehensive type safety."
       },
@@ -246,58 +246,3 @@ const Features = () => {
 };
 
 export default Features;
-
-// For missing icons not imported from lucide-react
-const Shield = ({ size = 24, ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-  </svg>
-);
-
-const Monitor = ({ size = 24, ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-    <line x1="8" y1="21" x2="16" y2="21" />
-    <line x1="12" y1="17" x2="12" y2="21" />
-  </svg>
-);
-
-const Code = ({ size = 24, ...props }) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <polyline points="16 18 22 12 16 6" />
-    <polyline points="8 6 2 12 8 18" />
-  </svg>
-);
