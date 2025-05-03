@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Briefcase, User, Building } from "lucide-react";
 import { ProjectIcon } from "@/components/icons/ProjectIcon";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const useCases = [
   {
@@ -17,7 +18,9 @@ const useCases = [
       "Track all versions of marketing materials and brand assets",
       "Receive real-time notifications when assets are updated"
     ],
-    color: "bg-blue-50 border-blue-200"
+    color: "bg-blue-50 border-blue-200",
+    image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "A marketing team collaborating around digital screens and displays"
   },
   {
     title: "HR Departments",
@@ -30,7 +33,9 @@ const useCases = [
       "Set document retention policies that comply with regulations",
       "Create custom views for different employee categories"
     ],
-    color: "bg-amber-50 border-amber-200"
+    color: "bg-amber-50 border-amber-200",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "HR professional working with employee documents on a laptop"
   },
   {
     title: "Project Teams",
@@ -43,7 +48,9 @@ const useCases = [
       "Assign and manage document-related tasks within the platform",
       "Use AI-powered search to quickly find project information"
     ],
-    color: "bg-green-50 border-green-200"
+    color: "bg-green-50 border-green-200",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "Project team members collaborating with laptops around a table"
   },
   {
     title: "Small Businesses",
@@ -56,7 +63,9 @@ const useCases = [
       "Share documents securely with clients and partners",
       "Scale your solution as your business grows"
     ],
-    color: "bg-purple-50 border-purple-200"
+    color: "bg-purple-50 border-purple-200",
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
+    alt: "Small business owner working with documents on a computer"
   }
 ];
 
@@ -121,11 +130,15 @@ const UseCases = () => {
                   </div>
                   
                   <div className="flex-1 w-full">
-                    <div className={`border rounded-xl overflow-hidden shadow-soft h-80 ${useCase.color} p-6 flex items-center justify-center`}>
-                      <div className="text-center space-y-4">
-                        <useCase.icon size={64} className="mx-auto text-cerebrum-600 opacity-50" />
-                        <p className="text-gray-500">[Visual representation for {useCase.title}]</p>
-                      </div>
+                    <div className={`rounded-xl overflow-hidden shadow-lg h-auto border ${useCase.color}`}>
+                      <AspectRatio ratio={16/9} className="bg-muted">
+                        <img 
+                          src={useCase.image} 
+                          alt={useCase.alt}
+                          className="object-cover w-full h-full transition-all hover:scale-105 duration-500"
+                          loading="lazy"
+                        />
+                      </AspectRatio>
                     </div>
                   </div>
                 </div>
