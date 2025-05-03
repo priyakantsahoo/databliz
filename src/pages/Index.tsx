@@ -35,6 +35,9 @@ const Index = () => {
                 Explore Features
               </Button>
             </div>
+            <div className="mt-8 text-white/70 text-sm">
+              Get started with a free 14-day trial. No credit card required.
+            </div>
           </div>
         </section>
       </main>
