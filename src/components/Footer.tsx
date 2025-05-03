@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import { Brain } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,13 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-500 to-cerebrum-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-display font-bold text-xl">C</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-500 to-cerebrum-700 rounded-full flex items-center justify-center">
+                <Brain className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-display font-bold text-white">Cerebrum</span>
+              <span className="text-2xl font-display font-bold text-white">Cerebrum</span>
             </div>
             <p className="text-gray-300 max-w-xs mb-4">
-              The intelligent document management system that transforms your document chaos into your digital knowledge verse.
+              Transform Your Document Chaos into Order. A powerful cloud-based document management system designed for seamless business workflows, with built-in AI to create your digital knowledge verse.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white">

@@ -12,7 +12,7 @@ const Hero = () => {
               <span className="text-cerebrum-600">AI-Powered</span> Document Intelligence for the Modern Enterprise
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl">
-              Transform your business with zero-touch document workflows. Our AI engine automates processing, surfaces insights, and eliminates manual paperwork—all while learning from your organization.
+              Transform Your Document Chaos into Order. A powerful cloud-based document management system designed for seamless business workflows, with built-in AI to create your digital knowledge verse.
             </p>
             <div className="pt-2">
               <div className="flex flex-wrap gap-3 items-center text-sm text-muted-foreground mb-6">

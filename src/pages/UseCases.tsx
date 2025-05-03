@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Briefcase, User, Building } from "lucide-react";
+import { Briefcase, User, Building, Brain, Zap, Database, FileSearch, Workflow } from "lucide-react";
 import { ProjectIcon } from "@/components/icons/ProjectIcon";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -10,62 +10,66 @@ const useCases = [
   {
     title: "Marketing Teams",
     icon: Briefcase,
-    challenge: "Managing creative assets, sharing large files, and maintaining brand consistency.",
-    solution: "Centralized storage, easy sharing, tag-based organization for campaigns, and version control for brand assets.",
+    challenge: "Managing creative assets, sharing large files, and maintaining brand consistency across campaigns.",
+    solution: "AI-powered asset organization, smart tagging, and predictive content recommendations that learn from your brand guidelines.",
     benefits: [
-      "Organize all creative assets by campaign using tags and custom views",
-      "Share files securely with external agencies and contractors",
-      "Track all versions of marketing materials and brand assets",
-      "Receive real-time notifications when assets are updated"
+      "Automatically categorize and tag assets using visual AI recognition",
+      "Generate AI-powered content insights from campaign performance",
+      "Predict optimal asset usage based on historical engagement data",
+      "Intelligent version control that proactively prevents brand inconsistencies"
     ],
     color: "bg-blue-50 border-blue-200",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "Sales team discussing presentations with colleagues in a meeting room"
+    alt: "Marketing team leveraging AI insights for campaign optimization",
+    workflow: "Document → AI Analysis → Smart Categorization → Performance Insights → Automated Distribution"
   },
   {
     title: "HR Departments",
     icon: User,
-    challenge: "Securely storing sensitive employee records and managing the onboarding document process.",
-    solution: "Role-based access control, privacy features, secure file requests for onboarding documents, and compliant document retention.",
+    challenge: "Managing sensitive employee documentation, complicated onboarding processes, and compliance requirements.",
+    solution: "Zero-touch document processing with AI-powered employee onboarding workflows and automated compliance monitoring.",
     benefits: [
-      "Keep employee files secure with granular permissions",
-      "Streamline the onboarding document collection process",
-      "Set document retention policies that comply with regulations",
-      "Create custom views for different employee categories"
+      "Reduce onboarding document processing time by 87% with intelligent form extraction",
+      "Automate compliance verification with regulatory AI that stays updated with law changes",
+      "Smart employee documentation lifecycle management with zero manual intervention",
+      "Predictive analytics for workforce planning based on document insights"
     ],
     color: "bg-amber-50 border-amber-200",
     image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "Smart modern HR professional in formal attire having a discussion with colleagues in an office setting"
+    alt: "HR professional reviewing AI-generated insights from employee documentation",
+    workflow: "Forms → Automated Extraction → Validation AI → Compliance Check → Digital Employee Record"
   },
   {
     title: "Project Teams",
     icon: ProjectIcon,
-    challenge: "Collaborating on project documents, tracking tasks, and maintaining document version history.",
-    solution: "Real-time collaboration, task management integrated with files, shared folders, and comprehensive version control.",
+    challenge: "Collaborating across complex document sets, tracking critical deliverables, and maintaining comprehensive project history.",
+    solution: "AI-powered project intelligence that automatically connects related documents, surfaces critical insights, and predicts potential bottlenecks.",
     benefits: [
-      "Create project-specific workspaces with controlled access",
-      "Track document changes and maintain version history",
-      "Assign and manage document-related tasks within the platform",
-      "Use AI-powered search to quickly find project information"
+      "Project Intelligence Dashboard with real-time document analytics",
+      "Automated document dependency mapping with 98% accuracy",
+      "Predictive bottleneck detection based on document flow patterns",
+      "Intelligent knowledge extraction that transforms documents into actionable project insights"
     ],
     color: "bg-green-50 border-green-200",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "Project team members collaborating with laptops around a table"
+    alt: "Project team collaborating with AI-assisted document intelligence system",
+    workflow: "Project Docs → Automated Analysis → Relationship Mapping → Insight Generation → Predictive Actions"
   },
   {
     title: "Small Businesses",
     icon: Building,
-    challenge: "Centralizing all business documents, simple sharing, and managing limited IT resources.",
-    solution: "Affordable plans, easy-to-use interface, secure storage and sharing, with minimal IT overhead.",
+    challenge: "Limited resources for document management, time-consuming administrative tasks, and difficulty staying organized.",
+    solution: "No-code AI automation that handles everything from invoice processing to customer documentation with minimal setup.",
     benefits: [
-      "Implement an enterprise-grade document system without IT expertise",
-      "Secure all business-critical documents in one centralized location",
-      "Share documents securely with clients and partners",
-      "Scale your solution as your business grows"
+      "Reduce administrative workload by 76% through intelligent document automation",
+      "AI-powered financial document processing that integrates with your accounting system",
+      "Automatic customer insights generated from document interaction patterns",
+      "Smart document organization that adapts to your business workflows"
     ],
     color: "bg-purple-50 border-purple-200",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1280&q=80",
-    alt: "Small business owner working with documents on a computer"
+    alt: "Small business owner using AI document management system on a laptop",
+    workflow: "Document Capture → Automated Processing → Integration → Business Intelligence → Actionable Insights"
   }
 ];
 
@@ -78,10 +82,31 @@ const UseCases = () => {
         {/* Hero Section */}
         <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-cerebrum-50 to-white">
           <div className="container mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Cerebrum for Your Business Needs</h1>
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-cerebrum-100 rounded-full mb-6">
+              <FileSearch className="h-8 w-8 text-cerebrum-600" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Cerebrum AI for Your Business Workflow</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              See how different teams and industries leverage Cerebrum to transform their document management processes.
+              Transform Your Document Chaos into Order. A powerful cloud-based document management system designed for seamless business workflows, with built-in AI to create your digital knowledge verse.
             </p>
+            <div className="flex flex-wrap gap-4 justify-center mb-8">
+              <div className="flex items-center px-4 py-2 bg-cerebrum-50 rounded-full border border-cerebrum-100">
+                <Zap className="h-5 w-5 text-cerebrum-600 mr-2" />
+                <span className="text-sm font-medium">Zero-touch Automation</span>
+              </div>
+              <div className="flex items-center px-4 py-2 bg-cerebrum-50 rounded-full border border-cerebrum-100">
+                <Brain className="h-5 w-5 text-cerebrum-600 mr-2" />
+                <span className="text-sm font-medium">Intelligent Insights</span>
+              </div>
+              <div className="flex items-center px-4 py-2 bg-cerebrum-50 rounded-full border border-cerebrum-100">
+                <Workflow className="h-5 w-5 text-cerebrum-600 mr-2" />
+                <span className="text-sm font-medium">Adaptive Workflows</span>
+              </div>
+              <div className="flex items-center px-4 py-2 bg-cerebrum-50 rounded-full border border-cerebrum-100">
+                <Database className="h-5 w-5 text-cerebrum-600 mr-2" />
+                <span className="text-sm font-medium">Knowledge Mining</span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -112,7 +137,7 @@ const UseCases = () => {
                       <p className="text-lg text-gray-700">{useCase.solution}</p>
                     </div>
                     
-                    <div className="mb-8">
+                    <div className="mb-6">
                       <h3 className="text-xl font-semibold mb-2 text-cerebrum-600">Key Benefits</h3>
                       <ul className="space-y-2">
                         {useCase.benefits.map((benefit, i) => (
@@ -124,8 +149,18 @@ const UseCases = () => {
                       </ul>
                     </div>
                     
+                    <div className="mb-8">
+                      <h3 className="text-xl font-semibold mb-2 text-cerebrum-600">Intelligent Workflow</h3>
+                      <div className="bg-cerebrum-50 rounded-lg p-4 border border-cerebrum-100">
+                        <div className="flex items-center text-sm text-cerebrum-800">
+                          <Brain className="mr-2 h-4 w-4 text-cerebrum-600" />
+                          <span className="font-medium">{useCase.workflow}</span>
+                        </div>
+                      </div>
+                    </div>
+                    
                     <Button className="bg-cerebrum-600 hover:bg-cerebrum-700">
-                      Learn More
+                      Explore {useCase.title} Solutions
                     </Button>
                   </div>
                   
@@ -140,6 +175,20 @@ const UseCases = () => {
                         />
                       </AspectRatio>
                     </div>
+                    
+                    <div className="mt-4 bg-cerebrum-50 rounded-lg p-3 border border-cerebrum-100">
+                      <div className="flex items-center">
+                        <div className="w-10 h-10 rounded-full flex items-center justify-center bg-cerebrum-600 text-white mr-3">
+                          <Brain className="h-5 w-5" />
+                        </div>
+                        <div>
+                          <h4 className="font-medium text-sm">AI Insight</h4>
+                          <p className="text-xs text-cerebrum-700">
+                            Cerebrum detected {index % 2 === 0 ? "efficiency opportunities" : "process optimization patterns"} in your workflow
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               ))}
@@ -150,12 +199,12 @@ const UseCases = () => {
         {/* Find Your Solution CTA */}
         <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-4">Find Your Solution</h2>
+            <h2 className="text-3xl font-bold mb-4">Find Your Intelligent Solution</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Not seeing your industry or use case? Contact us to discuss how Cerebrum can be tailored for your specific document management needs.
+              Discover how Cerebrum's AI can transform your specific document workflows with zero-touch automation and predictive intelligence.
             </p>
             <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700">
-              Request a Customized Demo
+              Request a Personalized AI Demo
             </Button>
           </div>
         </section>
