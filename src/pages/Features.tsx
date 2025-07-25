@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { 
   FileText, 
   Folder, 
@@ -320,19 +321,19 @@ const Features = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100" asChild>
-                <a href="mailto:sales@databliz.com?subject=Pricing%20Inquiry%20-%20Datablize">
+                <Link to="/contact">
                   Contact for Pricing
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700" asChild>
-                <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize">
+                <Link to="/contact">
                   Contact Sales
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700" asChild>
-                <a href="mailto:sales@databliz.com?subject=Free%20Trial%20Request%20-%20Datablize">
+                <Link to="/contact">
                   Start Free Trial
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

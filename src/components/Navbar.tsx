@@ -37,10 +37,10 @@ const Navbar = () => {
           <Link to="/security" className="text-foreground hover:text-cerebrum-700 font-medium transition-colors">
             Security
           </Link>
-          <Button className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium">
-            <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize" className="text-white no-underline">
+          <Button className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium" asChild>
+            <Link to="/contact">
               Contact Sales
-            </a>
+            </Link>
           </Button>
         </div>
 
@@ -89,10 +89,10 @@ const Navbar = () => {
               Security
             </Link>
             <div className="flex flex-col gap-2 mt-2 border-t border-border pt-4">
-              <Button className="w-full justify-center bg-cerebrum-600 hover:bg-cerebrum-700">
-                <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize" className="text-white no-underline">
+              <Button className="w-full justify-center bg-cerebrum-600 hover:bg-cerebrum-700" asChild>
+                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
                   Contact Sales
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

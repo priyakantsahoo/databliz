@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
@@ -38,15 +39,15 @@ const Hero = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium group" asChild>
-                <a href="mailto:sales@databliz.com?subject=AI%20Experience%20Demo%20-%20Datablize">
+                <Link to="/contact">
                   Contact Sales for Demo
                   <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-cerebrum-600 text-cerebrum-600 hover:bg-cerebrum-50" asChild>
-                <a href="mailto:sales@databliz.com?subject=Intelligence%20Hub%20Inquiry%20-%20Datablize">
+                <Link to="/contact">
                   Contact Sales
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

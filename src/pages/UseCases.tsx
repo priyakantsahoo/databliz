@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Briefcase, User, Building, Brain, Zap, Database, FileSearch, Workflow } from "lucide-react";
 import { ProjectIcon } from "@/components/icons/ProjectIcon";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -204,9 +205,9 @@ const UseCases = () => {
               Discover how Datablize's AI can transform your specific document workflows with zero-touch automation and predictive intelligence.
             </p>
             <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700" asChild>
-              <a href="mailto:sales@databliz.com?subject=Personalized%20AI%20Demo%20Request%20-%20Datablize">
+              <Link to="/contact">
                 Contact Sales for Demo
-              </a>
+              </Link>
             </Button>
           </div>
         </section>

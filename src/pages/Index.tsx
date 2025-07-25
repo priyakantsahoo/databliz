@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Brain, ArrowRight } from "lucide-react";
 
 const Index = () => {
@@ -33,15 +34,15 @@ const Index = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100 group" asChild>
-                <a href="mailto:sales@databliz.com?subject=AI%20Demo%20Request%20-%20Datablize">
+                <Link to="/contact">
                   Contact Sales for Demo
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700" asChild>
-                <a href="mailto:sales@databliz.com?subject=Enterprise%20Solutions%20Inquiry%20-%20Datablize">
+                <Link to="/contact">
                   Explore Enterprise Solutions
-                </a>
+                </Link>
               </Button>
             </div>
             <div className="mt-8 text-white/70 text-sm">

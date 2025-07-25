@@ -1,0 +1,14 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favicon16Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simplified hexagon for 16x16 -->
+  <polygon points="8,1 13,4 13,12 8,15 3,12 3,4" fill="url(#favicon16Gradient)" />
+  
+  <!-- Inner element -->
+  <polygon points="8,5 10,6 10,10 8,11 6,10 6,6" fill="white" />
+</svg>
