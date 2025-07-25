@@ -20,7 +20,7 @@
   - [ ] Use Cases (/use-cases)
   - [ ] Security (/security)
   - [ ] Pricing (/pricing)
-- [ ] Contact forms open email client with sales@databliz.com
+- [ ] Contact forms open email client with sales@datablize.com
 - [ ] Mobile responsiveness tested
 - [ ] Logo displays correctly
 
@@ -63,7 +63,7 @@
 ### Functionality Testing
 - [ ] Navigation menu works
 - [ ] Contact buttons open email client
-- [ ] Email addresses are correct (sales@databliz.com)
+- [ ] Email addresses are correct (sales@datablize.com)
 - [ ] Images and logos load properly
 - [ ] Responsive design works on mobile
 

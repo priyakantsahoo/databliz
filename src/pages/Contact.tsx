@@ -68,7 +68,7 @@ Sent from Datablize Contact Form`;
   const handleSubmit = () => {
     const subject = encodeURIComponent(generateEmailSubject());
     const body = encodeURIComponent(generateEmailBody());
-    window.location.href = `mailto:sales@databliz.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:sales@datablize.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -128,10 +128,10 @@ Sent from Datablize Contact Form`;
                     <div>
                       <p className="font-medium">Sales & General Inquiries</p>
                       <a 
-                        href="mailto:sales@databliz.com" 
+                        href="mailto:sales@datablize.com" 
                         className="text-cerebrum-600 hover:text-cerebrum-700 text-sm"
                       >
-                        sales@databliz.com
+                        sales@datablize.com
                       </a>
                     </div>
                   </div>

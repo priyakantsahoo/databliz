@@ -91,7 +91,7 @@ The docker-compose.yml includes a health check that pings the application every 
 2. **Access Application**: Click on the provided URL or your custom domain
 3. **Test Functionality**: 
    - Navigate through different pages (Features, Security, Pricing, Use Cases)
-   - Test contact forms (should open email client with sales@databliz.com)
+   - Test contact forms (should open email client with sales@datablize.com)
    - Verify mobile responsiveness
 
 ## 🔧 Troubleshooting
@@ -221,7 +221,7 @@ To set up automatic deployments:
 - [ ] Docker files are in repository root
 - [ ] Domain DNS is configured (if using custom domain)
 - [ ] SSL certificate is ready
-- [ ] Contact email (sales@databliz.com) is configured
+- [ ] Contact email (sales@datablize.com) is configured
 - [ ] All pages are accessible
 - [ ] Mobile responsiveness is tested
 
@@ -235,7 +235,7 @@ To set up automatic deployments:
 ### Contact Information
 - **Technical Issues**: Check Dockploy community/support
 - **Application Issues**: Contact development team
-- **Sales Inquiries**: sales@databliz.com
+- **Sales Inquiries**: sales@datablize.com
 
 ---
 
