@@ -1,0 +1,26 @@
+# Simple single-stage Dockerfile for Dockploy
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm ci --only=production
+
+# Copy all source files
+COPY . .
+
+# Build the React application
+RUN npm run build
+
+# Install serve globally to serve the static files
+RUN npm install -g serve
+
+# Expose port 80
+EXPOSE 80
+
+# Serve the built application on port 80
+CMD ["serve", "-s", "dist", "-l", "80"]
