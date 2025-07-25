@@ -19,8 +19,8 @@ RUN npm run build
 # Install serve globally to serve the static files
 RUN npm install -g serve
 
-# Expose port 80
-EXPOSE 80
+# Expose port 8080
+EXPOSE 8080
 
-# Serve the built application on port 80
-CMD ["serve", "-s", "dist", "-l", "80"]
+# Serve the built application on port 8080
+CMD ["serve", "-s", "dist", "-l", "8080"]

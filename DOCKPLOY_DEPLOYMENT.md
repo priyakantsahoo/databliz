@@ -41,9 +41,9 @@ The following files have been created for deployment:
 - **Build Context**: `.` (current directory)
 
 #### **Port Configuration**
-- **Container Port**: `80`
-- **External Port**: `80` (or your preferred port)
-- **Protocol**: `HTTP`
+- **Container Port**: `8080` (internal application port)
+- **External Ports**: `80` and `443` (handled by Traefik proxy)
+- **Protocol**: `HTTP` internally, `HTTPS` externally via Traefik
 
 ### Step 4: Environment Variables (Optional)
 
