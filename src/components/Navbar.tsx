@@ -37,13 +37,10 @@ const Navbar = () => {
           <Link to="/security" className="text-foreground hover:text-cerebrum-700 font-medium transition-colors">
             Security
           </Link>
-          <Button variant="ghost" className="text-foreground" asChild>
-            <a href="https://datablize.lovable.app/" target="_blank" rel="noopener noreferrer">
-              Log In
-            </a>
-          </Button>
           <Button className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium">
-            Request Demo
+            <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize" className="text-white no-underline">
+              Contact Sales
+            </a>
           </Button>
         </div>
 
@@ -92,13 +89,10 @@ const Navbar = () => {
               Security
             </Link>
             <div className="flex flex-col gap-2 mt-2 border-t border-border pt-4">
-              <Button variant="outline" className="w-full justify-center" asChild>
-                <a href="https://datablize.lovable.app/" target="_blank" rel="noopener noreferrer">
-                  Log In
-                </a>
-              </Button>
               <Button className="w-full justify-center bg-cerebrum-600 hover:bg-cerebrum-700">
-                Request Demo
+                <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize" className="text-white no-underline">
+                  Contact Sales
+                </a>
               </Button>
             </div>
           </div>

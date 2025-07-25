@@ -203,8 +203,10 @@ const UseCases = () => {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
               Discover how Datablize's AI can transform your specific document workflows with zero-touch automation and predictive intelligence.
             </p>
-            <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700">
-              Request a Personalized AI Demo
+            <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700" asChild>
+              <a href="mailto:sales@databliz.com?subject=Personalized%20AI%20Demo%20Request%20-%20Datablize">
+                Contact Sales for Demo
+              </a>
             </Button>
           </div>
         </section>

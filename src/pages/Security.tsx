@@ -275,12 +275,16 @@ const Security = () => {
                 to protect their most critical applications and data.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium group">
-                  Start Security Assessment
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700 text-white font-medium group" asChild>
+                  <a href="mailto:sales@databliz.com?subject=Security%20Assessment%20Request%20-%20Datablize">
+                    Contact Sales for Assessment
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </Button>
-                <Button size="lg" variant="outline" className="border-cerebrum-600 text-cerebrum-600 hover:bg-cerebrum-50">
-                  Contact Security Team
+                <Button size="lg" variant="outline" className="border-cerebrum-600 text-cerebrum-600 hover:bg-cerebrum-50" asChild>
+                  <a href="mailto:sales@databliz.com?subject=Security%20Inquiry%20-%20Datablize">
+                    Contact Sales Team
+                  </a>
                 </Button>
               </div>
               <div className="mt-8 text-sm text-muted-foreground">

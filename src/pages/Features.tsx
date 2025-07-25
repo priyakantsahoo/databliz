@@ -319,14 +319,20 @@ const Features = () => {
               Join hundreds of businesses using Datablize to organize, secure, and extract intelligence from their documents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100">
-                See Pricing
+              <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100" asChild>
+                <a href="mailto:sales@databliz.com?subject=Pricing%20Inquiry%20-%20Datablize">
+                  Contact for Pricing
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700">
-                Request a Demo
+              <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700" asChild>
+                <a href="mailto:sales@databliz.com?subject=Demo%20Request%20-%20Datablize">
+                  Contact Sales
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700">
-                Start Free Trial
+              <Button size="lg" variant="outline" className="text-white border-white hover:bg-cerebrum-700" asChild>
+                <a href="mailto:sales@databliz.com?subject=Free%20Trial%20Request%20-%20Datablize">
+                  Start Free Trial
+                </a>
               </Button>
             </div>
           </div>

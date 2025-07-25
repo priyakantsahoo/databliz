@@ -59,7 +59,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">About Us</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
+              <li><a href="mailto:sales@databliz.com?subject=General%20Inquiry%20-%20Datablize" className="text-gray-300 hover:text-white transition-colors">Contact Sales</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a></li>
             </ul>
