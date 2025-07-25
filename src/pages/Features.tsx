@@ -238,7 +238,7 @@ const featureSections = [
   {
     id: "deployment",
     title: "Deployment & Integration",
-    description: "Adapt Cerebrum to your organization's specific infrastructure and security needs.",
+    description: "Adapt Datablize to your organization's specific infrastructure and security needs.",
     features: [
       {
         icon: Globe,
@@ -265,7 +265,7 @@ const Features = () => {
           <div className="container mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">All the Tools You Need for Complete Document Control</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              Cerebrum offers a comprehensive suite of features designed to transform how your organization manages documents and knowledge.
+              Datablize offers a comprehensive suite of features designed to transform how your organization manages documents and knowledge.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mb-12">
               {featureSections.map((section) => (
@@ -314,9 +314,9 @@ const Features = () => {
         {/* CTA Section */}
         <section className="py-16 px-4 bg-cerebrum-600">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Experience Cerebrum?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Experience Datablize?</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto mb-8">
-              Join hundreds of businesses using Cerebrum to organize, secure, and extract intelligence from their documents.
+              Join hundreds of businesses using Datablize to organize, secure, and extract intelligence from their documents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100">

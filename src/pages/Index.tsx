@@ -29,7 +29,7 @@ const Index = () => {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Transform Your Document Ecosystem?</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto mb-8">
-              Join forward-thinking organizations using Cerebrum's AI to automate workflows, extract intelligence, and eliminate manual document processing.
+              Join forward-thinking organizations using Datablize's AI to automate workflows, extract intelligence, and eliminate manual document processing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-cerebrum-600 hover:bg-gray-100 group">

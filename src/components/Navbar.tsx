@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Brain } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,10 +15,12 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md py-4 border-b border-border">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-600 to-cerebrum-800 rounded-full flex items-center justify-center animate-[pulse_2s_cubic-bezier(0.4,0,0.6,1)_infinite]">
-            <Brain className="h-6 w-6 text-white" />
-          </div>
-          <span className="text-2xl font-display font-bold text-foreground">Cerebrum</span>
+          <img 
+            src="/datablize-logo.svg" 
+            alt="Datablize Logo" 
+            className="w-10 h-10"
+          />
+          <span className="text-2xl font-display font-bold text-foreground">Datablize</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -36,7 +38,7 @@ const Navbar = () => {
             Security
           </Link>
           <Button variant="ghost" className="text-foreground" asChild>
-            <a href="https://cerebrum.lovable.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://datablize.lovable.app/" target="_blank" rel="noopener noreferrer">
               Log In
             </a>
           </Button>
@@ -91,7 +93,7 @@ const Navbar = () => {
             </Link>
             <div className="flex flex-col gap-2 mt-2 border-t border-border pt-4">
               <Button variant="outline" className="w-full justify-center" asChild>
-                <a href="https://cerebrum.lovable.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://datablize.lovable.app/" target="_blank" rel="noopener noreferrer">
                   Log In
                 </a>
               </Button>

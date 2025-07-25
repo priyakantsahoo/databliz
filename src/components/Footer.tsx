@@ -1,6 +1,5 @@
 
 import { Link } from "react-router-dom";
-import { Brain } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,10 +8,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-cerebrum-500 to-cerebrum-700 rounded-full flex items-center justify-center">
-                <Brain className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-display font-bold text-white">Cerebrum</span>
+              <img 
+                src="/datablize-logo.svg" 
+                alt="Datablize Logo" 
+                className="w-10 h-10"
+              />
+              <span className="text-2xl font-display font-bold text-white">Datablize</span>
             </div>
             <p className="text-gray-300 max-w-xs mb-4">
               Transform Your Document Chaos into Order. A powerful cloud-based document management system designed for seamless business workflows, with built-in AI to create your digital knowledge verse.
@@ -66,7 +67,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-800 mt-10 pt-6 text-center md:text-left">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Cerebrum. All rights reserved.
+            © {new Date().getFullYear()} Datablize. All rights reserved.
           </p>
         </div>
       </div>

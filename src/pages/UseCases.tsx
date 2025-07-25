@@ -85,7 +85,7 @@ const UseCases = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-cerebrum-100 rounded-full mb-6">
               <FileSearch className="h-8 w-8 text-cerebrum-600" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Cerebrum AI for Your Business Workflow</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Datablize AI for Your Business Workflow</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               Transform Your Document Chaos into Order. A powerful cloud-based document management system designed for seamless business workflows, with built-in AI to create your digital knowledge verse.
             </p>
@@ -184,7 +184,7 @@ const UseCases = () => {
                         <div>
                           <h4 className="font-medium text-sm">AI Insight</h4>
                           <p className="text-xs text-cerebrum-700">
-                            Cerebrum detected {index % 2 === 0 ? "efficiency opportunities" : "process optimization patterns"} in your workflow
+                            Datablize detected {index % 2 === 0 ? "efficiency opportunities" : "process optimization patterns"} in your workflow
                           </p>
                         </div>
                       </div>
@@ -201,7 +201,7 @@ const UseCases = () => {
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Find Your Intelligent Solution</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-              Discover how Cerebrum's AI can transform your specific document workflows with zero-touch automation and predictive intelligence.
+              Discover how Datablize's AI can transform your specific document workflows with zero-touch automation and predictive intelligence.
             </p>
             <Button size="lg" className="bg-cerebrum-600 hover:bg-cerebrum-700">
               Request a Personalized AI Demo

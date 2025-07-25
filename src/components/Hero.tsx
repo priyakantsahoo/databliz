@@ -52,7 +52,7 @@ const Hero = () => {
                 <div className="glass-card p-6 w-5/6 h-5/6 flex flex-col">
                   <div className="flex items-center mb-4">
                     <div className="w-8 h-8 bg-cerebrum-700 rounded flex items-center justify-center text-white mr-3">
-                      <span className="font-display font-bold">C</span>
+                      <span className="font-display font-bold">D</span>
                     </div>
                     <div className="flex-1 flex gap-2">
                       <div className="h-6 bg-white/20 rounded-md px-3 py-1 text-xs text-white/90 flex items-center">Intelligence Hub</div>

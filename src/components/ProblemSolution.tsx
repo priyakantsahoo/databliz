@@ -9,7 +9,7 @@ const ProblemSolution = () => {
           Is your organization still drowning in manual document processing?
         </h2>
         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Every hour spent on document management is an hour lost on innovation. Cerebrum's AI engine 
+          Every hour spent on document management is an hour lost on innovation. Datablize's AI engine 
           automatically processes documents, extracts insights, and streamlines workflows without human intervention.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
@@ -35,7 +35,7 @@ const ProblemSolution = () => {
             </ul>
           </div>
           <div className="bg-gradient-to-br from-cerebrum-600 to-cerebrum-700 text-white rounded-xl p-6 shadow-soft">
-            <h3 className="text-xl font-semibold mb-4">The Cerebrum AI Solution</h3>
+            <h3 className="text-xl font-semibold mb-4">The Datablize AI Solution</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Brain className="mr-3 mt-1 h-5 w-5 flex-shrink-0" />

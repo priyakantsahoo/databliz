@@ -3,7 +3,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const testimonials = [
   {
-    quote: "Cerebrum's AI has transformed our document workflows. The predictive analysis feature alone has identified trends that led to a 28% increase in operational efficiency across departments.",
+    quote: "Datablize's AI has transformed our document workflows. The predictive analysis feature alone has identified trends that led to a 28% increase in operational efficiency across departments.",
     author: "Sarah Johnson",
     position: "Chief Innovation Officer",
     company: "NexTech Global",
